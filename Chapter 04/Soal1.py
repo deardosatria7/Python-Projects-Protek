@@ -9,4 +9,4 @@ menitSelesai = 50
 
 waktuSewa = (jamSelesai - jamMulai) + int ((menitSelesai - menitMulai)/60)
 harga = (waktuSewa//12 * sewa1) + waktuSewa%12 * sewa2
-print (harga)
+print ("Jadi, harga sewa yang harus dibayar adalah Rp", harga)
