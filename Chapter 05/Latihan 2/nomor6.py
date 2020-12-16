@@ -15,7 +15,7 @@ while True :
         sum += 1
         continue
     elif (bilAnda == bilTebak):
-        print ("Selamatttt tebakan Anda tepat :>")
+        print ("\nSelamatttt tebakan Anda tepat :>")
         score = 100 - sum * 2
         if ( score > 0):
             print ("Score Anda = ", score)
@@ -23,5 +23,5 @@ while True :
             print ("Yahhh... Maaf score Anda nol, Anda gagal :(((")
         break
     else :
-        print ("Ingat yaa, bilangan 0 - 100 :D ")
+        print ("\nIngat yaa, bilangan 0 - 100 :D ")
         continue
