@@ -6,6 +6,7 @@ def ubah_huruf (kata, a, b):
         kata = ''.join(kata_list)
         print (kata)
     elif a not in kata_list:
-        print ("Huruf",a,"tidak ada dalam kata",kata)
-     
+        print ("Huruf",a,"tidak ada dalam kata \"",kata,"\"")
+
+
 
