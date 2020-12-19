@@ -14,5 +14,4 @@ def bintang2(n):
         print (star.center(n+n))
         if i == n :
             break
-
-bintang2 (9)
+bintang2 (7)
