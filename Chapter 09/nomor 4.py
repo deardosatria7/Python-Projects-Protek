@@ -1,5 +1,5 @@
 import random
-import sys
+
 def shuffleString (kata, n):
     memori = []
     while (len(memori) < n):
