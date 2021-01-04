@@ -28,5 +28,6 @@ with open ("hasil jumlah.txt", 'w+') as f:
         f.write(tulis + '\n')
 print("File telah dibuat")
 print('=' * 70)
+
     
       
